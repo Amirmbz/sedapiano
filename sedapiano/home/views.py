@@ -9,3 +9,7 @@ from secrets import token_hex
 # Create your views here.
 def index(request):
     return render(request, 'home/index.html')
+
+
+def profile(request):
+    return render(request, 'home/profile.html')
