@@ -13,3 +13,15 @@ def index(request):
 
 def profile(request):
     return render(request, 'home/profile.html')
+
+
+def tprofile(request):
+    return render(request, 'home/tprofile.html')
+
+
+def person(request):
+    return render(request, 'home/person.html')
+
+
+def studyplan(request):
+    return render(request, 'home/studyplan.html')

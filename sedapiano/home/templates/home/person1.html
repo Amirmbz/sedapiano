@@ -1,0 +1,181 @@
+{% extends "home/layoutp.html" %}
+
+{% load static %}
+
+{% block title %}
+    Study Planner
+{% endblock %}
+
+{% block main %}
+<div class="container-fluid page-body-wrapper">
+  <div class="main-panel">        
+      <div class="row">
+        <div class="col-6 grid-margin stretch-card">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Study Plan For A Specific Person</h4>
+              <p class="card-description">
+                Main Goal And Study Plan
+              </p>
+              <form class="forms-sample">
+                <div class="form-group">
+                  <label>Main Goal</label>
+                  <input type="text" class="form-control" id="goal" placeholder="Inter The Goal Of This Semester">
+                </div>
+                <div class="form-group">
+                  <label>Session One</label>
+                  <input type="email" class="form-control" id="sec1" placeholder="Inter The First Session Plan">
+                </div>
+                <div class="form-group">
+                  <label>Session Two</label>
+                  <input type="email" class="form-control" id="sec2" placeholder="Inter The Second Session Plan">
+                </div>
+                <div class="form-group">
+                  <label>Session Three</label>
+                  <input type="email" class="form-control" id="sec3" placeholder="Inter The Third Session Plan">
+                </div>
+                <div class="form-group">
+                  <label>Session Four</label>
+                  <input type="email" class="form-control" id="sec4" placeholder="Inter The fourth Session Plan">
+                </div>
+                <button type="submit" class="btn btn-primary mr-2">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 grid-margin stretch-card">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-description">
+                Exercises And Reports
+              </p>
+              <form class="forms-sample">
+                <div class="form-group">
+                  <label>Session One</label>
+                  <input type="email" class="form-control" id="sec1" placeholder="Inter The First Session Plan">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <div class="form-check form-check-success">
+                        <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" checked>
+                        Completed
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="form-check form-check-warning">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" checked>
+                          Need Work
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="form-check form-check-danger">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" checked>
+                          Unacceptble
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label>Session Two</label>
+                  <input type="email" class="form-control" id="sec2" placeholder="Inter The Second Session Plan">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <div class="form-check form-check-success">
+                        <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" checked>
+                        Completed
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="form-check form-check-warning">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" checked>
+                          Need Work
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="form-check form-check-danger">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" checked>
+                          Unacceptble
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label>Session Three</label>
+                  <input type="email" class="form-control" id="sec3" placeholder="Inter The Third Session Plan">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <div class="form-check form-check-success">
+                        <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" checked>
+                        Completed
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="form-check form-check-warning">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" checked>
+                          Need Work
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="form-check form-check-danger">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" checked>
+                          Unacceptble
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label>Session Four</label>
+                  <input type="email" class="form-control" id="sec4" placeholder="Inter The fourth Session Plan">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <div class="form-check form-check-success">
+                        <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" checked>
+                        Completed
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="form-check form-check-warning">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" checked>
+                          Need Work
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="form-check form-check-danger">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" checked>
+                          Unacceptble
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary mr-2">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+{% endblock %}
