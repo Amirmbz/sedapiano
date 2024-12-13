@@ -25,3 +25,11 @@ def person(request):
 
 def studyplan(request):
     return render(request, 'home/studyplan.html')
+
+
+def indext(request):
+    return render(request, 'home/indext.html')
+
+
+def test(request):
+    return render(request, 'home/test.html')
